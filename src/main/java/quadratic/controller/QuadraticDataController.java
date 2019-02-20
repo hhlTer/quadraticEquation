@@ -48,8 +48,6 @@ public class QuadraticDataController {
             @RequestParam String valueC
     ){
 
-        System.out.println("=============================================");
-
         ValidationResult validationResult = validation.validateValues(valueA, valueB, valueC);
         if (validationResult != ValidationResult.OK){
             return validationResult.toString();
@@ -59,57 +57,42 @@ public class QuadraticDataController {
         double doubleValueB = Double.valueOf(valueB);
         double doubleValueC = Double.valueOf(valueC);
 
-
         PK quadraticDataEntityId = new PK(doubleValueA, doubleValueB, doubleValueC);
 
+        //Table entity. Return null if cortege not exist
         QuadraticDataMerged qdm = quadraticDatabaseService.getQuadraticDataById(quadraticDataEntityId);
 
         if (qdm == null){
             try {
-                qdm = calculateQuadraticEquation.calculateEquation(doubleValueA, doubleValueB, doubleValueC);
-                quadraticDatabaseService.addQuadraticData(qdm);
+                qdm = calculateQuadraticEquation.calculateEquation(doubleValueA, doubleValueB, doubleValueC); //calculate quadratic equation
+                quadraticDatabaseService.addQuadraticData(qdm);//save cortege
             } catch (DiscriminantException e) {
                 e.printStackTrace();
             }
         }
         if (qdm.getDiscriminant() < 0){
-
+            return ValidationResult.NEGATIVE_DISCRIMINANT.toString();
         }
 
+        //converting simple fraction to rational fraction
         calculateAndSetQuadraticDataRationalRepresentationByQuadraticData(qdm);
+        String answer = generateAnswer();
+        return answer;
+    }
 
-        ModelAndView modelAndView = new ModelAndView("showResult");
+    private String generateAnswer() {
 
-        modelAndView.addObject("test", "cla bla");
-        modelAndView.addObject("rationalValueA", quadraticDataRationalFractionRepresentation.getRationalValueA());
-        modelAndView.addObject("rationalValueB", quadraticDataRationalFractionRepresentation.getRationalValueB());
-        modelAndView.addObject("rationalValueC", quadraticDataRationalFractionRepresentation.getRationalValueC());
+        StringBuilder sb = new StringBuilder();
+        sb.append("Discriminant = ").append(quadraticDataRationalFractionRepresentation.getRationalDiscriminant().getDoubleValue())
+                .append(" or in rational representation: ").append(quadraticDataRationalFractionRepresentation.getRationalDiscriminant())
+                .append("\n")
+                .append("Root1: ").append(quadraticDataRationalFractionRepresentation.getRationalRoot1().getDoubleValue())
+                .append(" or in rational representation: ").append(quadraticDataRationalFractionRepresentation.getRationalRoot1())
+                .append("\n")
+                .append("Root2: ").append(quadraticDataRationalFractionRepresentation.getRationalRoot2().getDoubleValue())
+                .append(" or in rational representation: ").append(quadraticDataRationalFractionRepresentation.getRationalRoot2());
 
-        modelAndView.addObject("rationalDiscriminant", quadraticDataRationalFractionRepresentation.getRationalDiscriminant());
-        modelAndView.addObject("rationalRoot1", quadraticDataRationalFractionRepresentation.getRationalRoot1());
-        modelAndView.addObject("rationalRoot2", quadraticDataRationalFractionRepresentation.getRationalRoot2());
-
-
-
-
-
-
-
-
-//        model.addAttribute("test2", quadraticDataRationalFractionRepresentation.getRationalRoot1());
-
-//        Variant 1:
-//        1) create instance of class for calculating
-//        2) handle the exception
-//        3) turn instance to service layer for save to database
-//        4) out result
-
-//        Variant 2:
-//        create class for calculating
-//        lookInDataBase(a, b, c) ??
-//        ifNoCalculating() -> calculate
-
-        return "Text";
+        return sb.toString();
     }
 
     private void calculateAndSetQuadraticDataRationalRepresentationByQuadraticData(QuadraticDataMerged qdm) {

@@ -32,6 +32,12 @@ public class RationalFraction {
     }
 
     public double getDoubleValue() {
-        return whole+(double)numerator/denominator;
+        double result = denominator == 0 ? whole : whole + (double)numerator/denominator;
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return whole + " " + numerator + "/" + denominator;
     }
 }

@@ -16,9 +16,12 @@
 </head>
 
 <script>
+
     function loadResult() {
 
-        console.log("Entered to function");
+        document.getElementById('submitButton').disabled = true;
+
+
         var valA = document.getElementById("valueA").value;
         var valB = document.getElementById("valueB").value;
         var valC = document.getElementById("valueC").value;
@@ -36,11 +39,11 @@
             if (myRequest.readyState === 4){
                 alert(myRequest.responseText);
             }
+            document.getElementById('submitButton').disabled = false;
+
         };
 
         myRequest.send(body);
-
-
     }
 </script>
 <body>
@@ -62,8 +65,7 @@
         <label>Enter C</label>
         <input class="w3-input" name="valueC" id="valueC" type="text" required pattern="([-][0-9]+\.[0-9]+)|[-][0-9]+|[0-9]+|([0-9]+\.[0-9]+)" title="The field must contain only digits that are separated by a dot (For example: 5.2; 2; 0.33)"></p>
     <p>
-        <input class="w3-button" type="button" onclick="loadResult()" value="Submit query"/>
-        <%--<input class="w3-button" type="submit" onclick="loadResult()"/>--%>
+        <input class="w3-button" type="button" id="submitButton" onclick="loadResult()" value="Submit query"/>
     </p>
 </form>
 </div>

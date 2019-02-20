@@ -57,10 +57,7 @@ public class RationalConverter {
         BigDecimal bd = new BigDecimal("" + value);
         int numerator = 0;
         int denominator = 0;
-        //TODO
-//        value = (value - (int)value);
         double whole = (int)value;
-        double newVal = (double) value - (double) whole;
         value = bd.subtract(new BigDecimal("" + (int)value)).doubleValue();
         final long MAX_VALUE_OF_DENOMINATOR = Integer.MAX_VALUE;
         double temp;
