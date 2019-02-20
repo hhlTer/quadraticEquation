@@ -16,6 +16,9 @@ public class Validation {
             b = df.parse(valueB).doubleValue();
             c = df.parse(valueC).doubleValue();
         } catch (ParseException e){
+            if (isEmptyAnyFields(valueA, valueB, valueC)){
+                return ValidationResult.EMPTY_FIELDS;
+            }
             return ValidationResult.NOT_VALID_VALUE;
         }
 
@@ -24,6 +27,10 @@ public class Validation {
         }
 
         return ValidationResult.OK;
+    }
+
+    private boolean isEmptyAnyFields(String valueA, String valueB, String valueC){
+        return (valueA.length() < 1 || valueB.length() < 1 || valueC.length() < 1);
     }
 
 }

@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 import quadratic.controller.controllerservice.CalculateQuadraticEquation;
 import quadratic.controller.controllerservice.DiscriminantException;
@@ -39,9 +40,9 @@ public class QuadraticDataController {
         return new ModelAndView("mainPage");
     }
 
-    @RequestMapping(value = "/calculate", method = RequestMethod.POST)
+    @RequestMapping(value = "/calculate", method = RequestMethod.GET)
+    @ResponseBody
     public String getValuesAndSaveIntoDatabase(
-            Model model,
             @RequestParam String valueA,
             @RequestParam String valueB,
             @RequestParam String valueC
@@ -51,23 +52,15 @@ public class QuadraticDataController {
 
         ValidationResult validationResult = validation.validateValues(valueA, valueB, valueC);
         if (validationResult != ValidationResult.OK){
-
+            return validationResult.toString();
         }
 
         double doubleValueA = Double.valueOf(valueA);
         double doubleValueB = Double.valueOf(valueB);
         double doubleValueC = Double.valueOf(valueC);
 
-        List<QuadraticDataMerged> l = quadraticDatabaseService.getAllQuadraticData();
 
         PK quadraticDataEntityId = new PK(doubleValueA, doubleValueB, doubleValueC);
-//        QuadraticDataMerged qdm = new QuadraticDataMerged();
-//        qdm.setValueA(-4.0d);
-//        qdm.setValueA(4.0d);
-//        qdm.setValueA(3.0d);
-//        qdm.setDiscriminant(43d);
-//        qdm.setRoot2(4d);
-//        qdm.setRoot1(3d);
 
         QuadraticDataMerged qdm = quadraticDatabaseService.getQuadraticDataById(quadraticDataEntityId);
 
@@ -103,7 +96,7 @@ public class QuadraticDataController {
 
 
 
-        model.addAttribute("test2", quadraticDataRationalFractionRepresentation.getRationalRoot1());
+//        model.addAttribute("test2", quadraticDataRationalFractionRepresentation.getRationalRoot1());
 
 //        Variant 1:
 //        1) create instance of class for calculating
@@ -116,7 +109,7 @@ public class QuadraticDataController {
 //        lookInDataBase(a, b, c) ??
 //        ifNoCalculating() -> calculate
 
-        return "showResult";
+        return "Text";
     }
 
     private void calculateAndSetQuadraticDataRationalRepresentationByQuadraticData(QuadraticDataMerged qdm) {
