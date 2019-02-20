@@ -1,4 +1,4 @@
-package quadratic.controller.controllerservice;
+package quadratic.controller.controllerservice.validation;
 
 import org.springframework.stereotype.Component;
 

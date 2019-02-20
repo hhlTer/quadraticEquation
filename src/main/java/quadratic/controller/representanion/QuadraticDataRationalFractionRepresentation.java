@@ -1,8 +1,8 @@
-package quadratic.model.representanion;
+package quadratic.controller.representanion;
 
 import org.springframework.stereotype.Component;
 import quadratic.model.domain.QuadraticDataMerged;
-import quadratic.service.applicationservice.RationalConverter;
+import quadratic.controller.controllerservice.calculating.RationalConverter;
 
 
 @Component

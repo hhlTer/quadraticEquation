@@ -1,8 +1,6 @@
-package quadratic.service.applicationservice;
+package quadratic.controller.controllerservice.calculating;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import quadratic.model.representanion.RationalFraction;
+import quadratic.controller.representanion.RationalFraction;
 
 import java.math.BigDecimal;
 import java.util.TreeMap;

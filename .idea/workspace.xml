@@ -7,23 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eaee2d0-c5da-40e1-80d2-dc563a76d6f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/controller/QuadraticDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/controller/QuadraticDataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/CalculatingQuadraticEquation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/model/dao/QuadraticDAORepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticDAORepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/model/dao/QuadraticImplementationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticImplementationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalFraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalFraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/model/Temp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/model/representanion/QuadraticDataRationalFractionRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/controller/representanion/QuadraticDataRationalFractionRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalFraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/controller/representanion/RationalFraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/service/applicationservice/RationalConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/service/applicationservice/RationalConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDatabaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showResult.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/quadratic/controller/QuadraticDataController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quadratic/controller/QuadraticDataController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/quadratic/service/implementation/QuadraticDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quadratic/service/implementation/QuadraticDataService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quadratic/controller/QuadraticDataController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quadratic/controller/QuadraticDataController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quadratic/service/implementation/QuadraticDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quadratic/service/implementation/QuadraticDataService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,33 +54,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/QuadraticDataController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/domain/PK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticDataMerged.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
+            <state relative-caret-position="119">
               <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/applicationservice/RationalConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="884">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDatabaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="85">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,7 +90,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalFraction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/representanion/RationalFraction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
@@ -134,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticImplementationRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="367">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,9 +111,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/ValidationResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticDAORepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="102">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -161,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcherServlet/servlet-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="442">
               <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
             </state>
           </provider>
@@ -170,12 +152,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDataService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="289">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -311,16 +291,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="quadratic" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="controllerservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="quadratic" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,16 +312,6 @@
               <item name="quadratic" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="quadratic" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="representanion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
@@ -447,7 +407,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550671291382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550674132051" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -654,16 +614,17 @@
       <workItem from="1550666599902" duration="1589000" />
       <workItem from="1550669564060" duration="1721000" />
       <workItem from="1550671418225" duration="1715000" />
+      <workItem from="1550673283724" duration="736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64024000" />
+    <option name="totallyTimeSpent" value="64760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1926" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21024546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21237993" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -680,7 +641,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3297414" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33009708" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33009708" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32901832" />
@@ -706,7 +667,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalFraction.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/quadratic/controller/representanion/RationalFraction.java</url>
           <line>35</line>
           <properties />
           <option name="timeStamp" value="18" />
@@ -735,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mainPage.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.html.jsp" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/Serializable.java">
@@ -766,13 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/CalculatingQuadraticEquation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/CalculatingQuadraticEquation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/DiscriminantException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -780,13 +728,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticData.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.9.RELEASE/spring-web-3.2.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
@@ -847,7 +789,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/representanion/QuadraticDataRationalFractionRepresentation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/representanion/QuadraticDataRationalFractionRepresentation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
@@ -859,20 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/ValidationResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showResult.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showResult.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -887,55 +816,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcherServlet/servlet-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDatabaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/applicationservice/RationalConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalFraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/QuadraticDataController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="1207">
           <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -945,7 +828,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/domain/PK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="85">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -955,7 +838,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticDataMerged.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
+        <state relative-caret-position="119">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -963,10 +846,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/applicationservice/RationalConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDatabaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/representanion/RationalFraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticDAORepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="102">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcherServlet/servlet-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -975,11 +902,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticImplementationRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="367">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/ValidationResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

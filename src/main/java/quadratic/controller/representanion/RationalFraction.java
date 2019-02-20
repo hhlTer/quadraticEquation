@@ -1,4 +1,4 @@
-package quadratic.model.representanion;
+package quadratic.controller.representanion;
 
 public class RationalFraction {
 

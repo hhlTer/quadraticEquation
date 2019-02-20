@@ -2,23 +2,19 @@ package quadratic.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import quadratic.controller.controllerservice.CalculateQuadraticEquation;
-import quadratic.controller.controllerservice.DiscriminantException;
-import quadratic.controller.controllerservice.Validation;
-import quadratic.controller.controllerservice.ValidationResult;
+import quadratic.controller.controllerservice.calculating.CalculateQuadraticEquation;
+import quadratic.controller.controllerservice.exceptions.DiscriminantException;
+import quadratic.controller.controllerservice.validation.Validation;
+import quadratic.controller.controllerservice.validation.ValidationResult;
 import quadratic.model.domain.PK;
 import quadratic.model.domain.QuadraticDataMerged;
-import quadratic.model.representanion.QuadraticDataRationalFractionRepresentation;
-import quadratic.model.representanion.RationalFraction;
+import quadratic.controller.representanion.QuadraticDataRationalFractionRepresentation;
 import quadratic.service.implementation.QuadraticDatabaseService;
-
-import java.util.List;
 
 @Controller()
 public class QuadraticDataController {

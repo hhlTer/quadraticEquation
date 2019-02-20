@@ -1,10 +1,9 @@
-package quadratic.controller.controllerservice;
+package quadratic.controller.controllerservice.calculating;
 
 import org.springframework.stereotype.Component;
+import quadratic.controller.controllerservice.exceptions.DiscriminantException;
 import quadratic.model.domain.PK;
 import quadratic.model.domain.QuadraticDataMerged;
-
-import java.util.TreeMap;
 
 @Component
 public class CalculateQuadraticEquation {
