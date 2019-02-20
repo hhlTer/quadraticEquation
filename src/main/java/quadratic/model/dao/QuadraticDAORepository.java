@@ -1,13 +1,13 @@
 package quadratic.model.dao;
 
-
-import quadratic.model.domain.QuadraticData;
+import quadratic.model.domain.PK;
+import quadratic.model.domain.QuadraticDataMerged;
 
 import java.util.List;
 
 public interface QuadraticDAORepository {
-    void addQuadraticData(QuadraticData quadraticData);
-    List<QuadraticData> getAllQuadraticData();
-    void removeQuadraticDataById(long id);
-    QuadraticData getQuadraticDataById(long id);
+    void addQuadraticData(QuadraticDataMerged quadraticData);
+    List<QuadraticDataMerged> getAllQuadraticData();
+    void removeQuadraticDataById(PK id);
+    QuadraticDataMerged getQuadraticDataById(PK id);
 }
