@@ -9,5 +9,8 @@
         <module name="quadraticEquation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="quadraticEquation" target="7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

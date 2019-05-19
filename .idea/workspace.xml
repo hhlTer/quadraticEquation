@@ -5,10 +5,49 @@
       <artifact name="quadraticEquation:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.jsp" description="pattern=&quot;([-][0-9]+\.[0-9]+)|[-][0-9]+|[0-9]+|([0-..." line="58" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4eaee2d0-c5da-40e1-80d2-dc563a76d6f1" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/quadratic/model/domain/RationalValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quadratic/model/service/QuadraticDatabaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/quadratic/utils/calculating/RationalConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/quadratic/utils/validation/InputDataValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/controller/QuadraticDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/controller/QuadraticDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/calculating/CalculateQuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/utils/calculating/CalculateQuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/calculating/RationalConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/utils/calculating/RationalConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/exceptions/DiscriminantException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/utils/exceptions/DiscriminantException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/validation/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/utils/validation/InputDataValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/validation/ValidationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/utils/validation/ValidationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/controller/representanion/QuadraticDataRationalFractionRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/controller/representanion/RationalFraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalFraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticDataMerged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticEquationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticDAORepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticDAORepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticImplementationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticImplementationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quadratic/model/service/QuadraticDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDatabaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/quadratic/Temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/quadratic/controller/QuadraticDataController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quadratic/controller/QuadraticDataController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/quadratic/model/Temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/quadratic/service/Temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/quadratic/service/implementation/QuadraticDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quadratic/service/implementation/QuadraticDataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quadratic/Temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quadratic/controller/QuadraticDataController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quadratic/controller/QuadraticDataController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quadratic/model/Temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quadratic/service/Temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quadratic/service/implementation/QuadraticDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/quadraticEquation-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quadratic/service/implementation/QuadraticDataService.class" afterDir="false" />
+>>>>>>> version1
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,13 +57,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDataService.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/quadratic/utils/calculating/RationalConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="221">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,10 +86,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/dao/QuadraticDataDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/utils/validation/InputDataValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="221">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +98,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/dao/QuadraticDataImplementation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="591">
+              <caret line="62" column="142" selection-start-line="62" selection-start-column="79" selection-end-line="62" selection-end-column="142" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/quadratic/utils/validation/InputDataValidationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,87 +119,198 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/interfaces/QuadraticDataInterfaceService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalFraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="51">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/javax/management/remote/rmi/RMIConnectionImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19873">
-              <caret line="1239" selection-start-line="1239" selection-end-line="1239" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalRepresentation.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="19873">
+              <caret line="1239" selection-start-line="1239" selection-end-line="1239" />
+=======
+            <state relative-caret-position="102">
+              <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1471#1472#0" expanded="true" />
+                <element signature="e#1521#1522#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1599#1600#0" expanded="true" />
+                <element signature="e#1627#1628#0" expanded="true" />
+                <element signature="e#1682#1683#0" expanded="true" />
+                <element signature="e#1718#1719#0" expanded="true" />
+              </folding>
+>>>>>>> version1
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/utils/validation/ValidationResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="391">
               <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+=======
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+>>>>>>> version1
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/quadratic/utils/calculating/CalculateQuadraticEquationTest.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1683">
               <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+=======
+            <state relative-caret-position="34">
+              <caret line="15" column="33" selection-start-line="2" selection-start-column="7" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> version1
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/service/QuadraticDatabaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcherServlet/servlet-context.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/service/QuadraticDataService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="306">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>java-v</find>
+    </findStrings>
+  </component>
+>>>>>>> version1
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/dao/QuadraticDataDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/quadratic/model/dao/QuadraticDataImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDataService.java" />
         <option value="$PROJECT_DIR$/src/main/java/quadratic/service/interfaces/QuadraticDataInterfaceService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcherServlet/servlet-context.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/dao/QuadraticDataDAO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.html.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcherServlet/servlet-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/service/interfaces/QDInterfaceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/pojo/FractionRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/pojo/WholeFractionRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/Calculating.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/representanion/FractionRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/Temp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/CalculatingQuadraticEquation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDataInterfaceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/representanion/QuadraticDataRationalFractionRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/DiscriminantException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/CalculateQuadraticEquation.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/domain/PK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/dao/QuadraticDAORepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/dao/QuadraticImplementationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showResult.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/Validation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/ValidationResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/service/applicationservice/RationalConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticDAORepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticImplementationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/domain/RationalValues.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/utils/validation/Validation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticDataMerged.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticEquationData.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/utils/calculating/CalculateQuadraticEquation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/quadratic/utils/calculating/CalculateQuadraticEquationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/controller/QuadraticDataController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/utils/calculating/RationalConverter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/quadratic/utils/calculating/RationalConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/utils/validation/InputDataValidation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/quadratic/utils/validation/InputDataValidationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDatabaseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/implementation/QuadraticDatabaseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/service/QuadraticDatabaseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalFraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalRepresentation.java" />
       </list>
     </option>
   </component>
@@ -153,30 +326,175 @@
     <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="quadratic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="quadratic" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="quadratic" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="representanion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="calculating" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quadraticEquation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quadraticEquation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+>>>>>>> version1
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558273708369" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="quadratic.utils.validation" />
+      <recent name="quadratic.utils.calculating" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -191,7 +509,85 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.32 (Ubuntu)">
+=======
+  <component name="RunManager" selected="JUnit.InputDataValidationTest">
+    <configuration name="CalculateQuadraticEquationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quadraticEquation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quadratic.utils.calculating.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="quadratic.utils.calculating" />
+      <option name="MAIN_CLASS_NAME" value="quadratic.utils.calculating.CalculateQuadraticEquationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateQuadraticEquationTest.calculateEquationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quadraticEquation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quadratic.utils.calculating.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="quadratic.utils.calculating" />
+      <option name="MAIN_CLASS_NAME" value="quadratic.utils.calculating.CalculateQuadraticEquationTest" />
+      <option name="METHOD_NAME" value="calculateEquationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputDataValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quadraticEquation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quadratic.utils.validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="quadratic.utils.validation" />
+      <option name="MAIN_CLASS_NAME" value="quadratic.utils.validation.InputDataValidationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RationalConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quadraticEquation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quadratic.utils.calculating.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="quadratic.utils.calculating" />
+      <option name="MAIN_CLASS_NAME" value="quadratic.utils.calculating.RationalConverterTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RationalConverterTest.convertToRational" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quadraticEquation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quadratic.utils.calculating.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="quadratic.utils.calculating" />
+      <option name="MAIN_CLASS_NAME" value="quadratic.utils.calculating.RationalConverterTest" />
+      <option name="METHOD_NAME" value="convertToRational" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> version1
     <configuration name="Tomcat 7.0.68 (Ubuntu)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.68 (Ubuntu)" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -265,8 +661,12 @@
         </option>
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Tomcat 8.0.32 (Ubuntu)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.32 (Ubuntu)" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/quadraticEquation_war_exploded/" />
+=======
+    <configuration name="Tomcat 8.0.32 (Ubuntu)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.32 (Ubuntu)" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+>>>>>>> version1
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="quadraticEquation:war exploded">
@@ -276,7 +676,11 @@
         </artifact>
       </deployment>
       <server-settings>
+<<<<<<< HEAD
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_quadraticEquation_3" />
+=======
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_quadraticEquation_6" />
+>>>>>>> version1
         <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -285,7 +689,11 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
+<<<<<<< HEAD
         <option name="DEBUG_PORT" value="45879" />
+=======
+        <option name="DEBUG_PORT" value="36733" />
+>>>>>>> version1
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -340,9 +748,29 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Tomcat Server.Tomcat 7.0.68 (Ubuntu)" />
       <item itemvalue="Tomcat Server.Tomcat 8.0.32 (Ubuntu)" />
     </list>
+=======
+      <item itemvalue="JUnit.CalculateQuadraticEquationTest" />
+      <item itemvalue="JUnit.RationalConverterTest" />
+      <item itemvalue="JUnit.CalculateQuadraticEquationTest.calculateEquationTest" />
+      <item itemvalue="JUnit.RationalConverterTest.convertToRational" />
+      <item itemvalue="JUnit.InputDataValidationTest" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.68 (Ubuntu)" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.32 (Ubuntu)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.InputDataValidationTest" />
+        <item itemvalue="JUnit.RationalConverterTest" />
+        <item itemvalue="JUnit.RationalConverterTest.convertToRational" />
+        <item itemvalue="JUnit.CalculateQuadraticEquationTest.calculateEquationTest" />
+        <item itemvalue="JUnit.CalculateQuadraticEquationTest" />
+      </list>
+    </recent_temporary>
+>>>>>>> version1
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -355,20 +783,123 @@
       <option name="presentableId" value="Default" />
       <updated>1550445242070</updated>
       <workItem from="1550445246057" duration="541000" />
+<<<<<<< HEAD
       <workItem from="1550445915818" duration="822000" />
       <workItem from="1558044985929" duration="255000" />
       <workItem from="1558185126656" duration="426000" />
       <workItem from="1558188963577" duration="480000" />
+=======
+      <workItem from="1550445915818" duration="1758000" />
+      <workItem from="1550473798424" duration="1712000" />
+      <workItem from="1550475910979" duration="831000" />
+      <workItem from="1550512405151" duration="1694000" />
+      <workItem from="1550514209917" duration="1830000" />
+      <workItem from="1550516160011" duration="1715000" />
+      <workItem from="1550521112534" duration="1572000" />
+      <workItem from="1550523290471" duration="599000" />
+      <workItem from="1550529924571" duration="1699000" />
+      <workItem from="1550531805311" duration="1260000" />
+      <workItem from="1550533274112" duration="1524000" />
+      <workItem from="1550535071553" duration="1734000" />
+      <workItem from="1550536911331" duration="1122000" />
+      <workItem from="1550564306830" duration="1723000" />
+      <workItem from="1550584171941" duration="1048000" />
+      <workItem from="1550585394290" duration="1703000" />
+      <workItem from="1550589503087" duration="1776000" />
+      <workItem from="1550591323351" duration="2061000" />
+      <workItem from="1550593972390" duration="1781000" />
+      <workItem from="1550595833294" duration="1799000" />
+      <workItem from="1550598252146" duration="1693000" />
+      <workItem from="1550600789585" duration="1181000" />
+      <workItem from="1550603456942" duration="1073000" />
+      <workItem from="1550611754605" duration="1707000" />
+      <workItem from="1550614519291" duration="1679000" />
+      <workItem from="1550616741346" duration="1695000" />
+      <workItem from="1550618582978" duration="1711000" />
+      <workItem from="1550620417625" duration="1507000" />
+      <workItem from="1550622509180" duration="1709000" />
+      <workItem from="1550624296063" duration="1147000" />
+      <workItem from="1550648016085" duration="1767000" />
+      <workItem from="1550649831940" duration="1808000" />
+      <workItem from="1550651776434" duration="779000" />
+      <workItem from="1550656647831" duration="1722000" />
+      <workItem from="1550658421150" duration="1282000" />
+      <workItem from="1550661043052" duration="1780000" />
+      <workItem from="1550663084915" duration="1565000" />
+      <workItem from="1550664770308" duration="1712000" />
+      <workItem from="1550666599902" duration="1589000" />
+      <workItem from="1550669564060" duration="1721000" />
+      <workItem from="1550671418225" duration="1715000" />
+      <workItem from="1550673283724" duration="736000" />
+      <workItem from="1558190241102" duration="1777000" />
+      <workItem from="1558192079565" duration="1770000" />
+      <workItem from="1558193907543" duration="1819000" />
+      <workItem from="1558196073568" duration="1319000" />
+      <workItem from="1558209869547" duration="1718000" />
+      <workItem from="1558211723736" duration="1884000" />
+      <workItem from="1558213708571" duration="1637000" />
+      <workItem from="1558215554338" duration="1913000" />
+      <workItem from="1558217597625" duration="1426000" />
+      <workItem from="1558250805258" duration="1717000" />
+      <workItem from="1558252557846" duration="1574000" />
+      <workItem from="1558256769386" duration="617000" />
+      <workItem from="1558258581408" duration="1779000" />
+      <workItem from="1558260392659" duration="1778000" />
+      <workItem from="1558263188980" duration="1658000" />
+      <workItem from="1558265032844" duration="1688000" />
+      <workItem from="1558269380699" duration="2312000" />
+      <workItem from="1558273750192" duration="1772000" />
+>>>>>>> version1
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="InputDataValidationTest - 2019.05.19 at 16h 00m 54s.xml">
+      <configuration name="InputDataValidationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputDataValidationTest - 2019.05.19 at 16h 01m 18s.xml">
+      <configuration name="InputDataValidationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputDataValidationTest - 2019.05.19 at 16h 02m 42s.xml">
+      <configuration name="InputDataValidationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputDataValidationTest - 2019.05.19 at 16h 03m 20s.xml">
+      <configuration name="InputDataValidationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputDataValidationTest - 2019.05.19 at 17h 04m 15s.xml">
+      <configuration name="InputDataValidationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputDataValidationTest - 2019.05.19 at 17h 04m 41s.xml">
+      <configuration name="InputDataValidationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputDataValidationTest - 2019.05.19 at 17h 05m 37s.xml">
+      <configuration name="InputDataValidationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputDataValidationTest - 2019.05.19 at 17h 06m 31s.xml">
+      <configuration name="InputDataValidationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputDataValidationTest - 2019.05.19 at 17h 07m 06s.xml">
+      <configuration name="InputDataValidationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputDataValidationTest - 2019.05.19 at 17h 07m 19s.xml">
+      <configuration name="InputDataValidationTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2524000" />
+=======
+    <option name="totallyTimeSpent" value="95440000" />
+>>>>>>> version1
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1926" height="1050" extended-state="7" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26040554" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31963715" />
+>>>>>>> version1
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -377,9 +908,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34412083" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901832" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3398058" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27400216" />
+>>>>>>> version1
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -390,15 +927,17 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32901832" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32901832" />
+      <window_info anchor="bottom" id="Duplicate detector" order="17" weight="0.32901832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.1995731" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Codota" order="9" />
@@ -407,73 +946,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/quadratic/controller/QuadraticDataController.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/quadratic/utils/calculating/CalculateQuadraticEquationTest.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/quadratic/utils/calculating/RationalConverter.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/quadratic/utils/calculating/RationalConverter.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/Temp.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/Temp.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/Temp.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticData.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/QuadraticDataController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/implementation/QuadraticDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/dao/QuadraticDataDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/dao/QuadraticDataImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/interfaces/QuadraticDataInterfaceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/Temp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/Temp.java" />
     <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/javax/management/remote/rmi/RMIConnectionImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19873">
@@ -481,10 +986,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mainPage.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.html.jsp" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/Serializable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+        <state relative-caret-position="2465">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/interfaces/QDInterfaceService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/Temp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/CalculatingQuadraticEquation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/DiscriminantException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticData.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.9.RELEASE/spring-web-3.2.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9a63a692-e5c0-4e08-aab2-3e698c60a1ad/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.9.RELEASE/spring-aop-3.2.9.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.9.RELEASE/spring-aop-3.2.9.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/CalculateQuadraticEquation.java" />
+    <entry file="das://9a63a692-e5c0-4e08-aab2-3e698c60a1ad/schema/quadraticstore/table/quadratic_data_merged" />
+    <entry file="das://9a63a692-e5c0-4e08-aab2-3e698c60a1ad/schema/quadraticstore/table/quadratic_data" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/Validation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showResult.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/service/applicationservice/RationalConverter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/controllerservice/ValidationResult.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -502,10 +1073,249 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticDAORepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/repository/QuadraticImplementationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/domain/RationalValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/domain/PK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/controller/QuadraticDataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/domain/QuadraticEquationData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/utils/calculating/CalculateQuadraticEquation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/utils/calculating/RationalConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
+            <element signature="e#2732#2733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/utils/exceptions/DiscriminantException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/quadratic/utils/calculating/CalculateQuadraticEquationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="15" column="33" selection-start-line="2" selection-start-column="7" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="62" column="142" selection-start-line="62" selection-start-column="79" selection-end-line="62" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/quadratic/utils/calculating/RationalConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/quadratic/utils/validation/InputDataValidationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/utils/validation/InputDataValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/utils/validation/ValidationResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="19873">
+          <caret line="1239" selection-start-line="1239" selection-end-line="1239" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+=======
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/service/QuadraticDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/service/QuadraticDatabaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> version1
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalFraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcherServlet/servlet-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadratic/model/representanion/RationalRepresentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1682#1683#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+          </folding>
+>>>>>>> version1
         </state>
       </provider>
     </entry>
