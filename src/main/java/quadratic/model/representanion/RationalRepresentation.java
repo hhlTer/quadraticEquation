@@ -1,12 +1,12 @@
-package quadratic.controller.representanion;
+package quadratic.model.representanion;
 
-import org.springframework.stereotype.Component;
-import quadratic.model.domain.QuadraticDataMerged;
-import quadratic.controller.controllerservice.calculating.RationalConverter;
+import quadratic.model.domain.QuadraticEquationData;
+import quadratic.utils.calculating.RationalConverter;
 
-
-@Component
-public class QuadraticDataRationalFractionRepresentation {
+/**
+ * POJO class that stores quadratic equation result in rational
+ */
+public class RationalRepresentation {
 
     private RationalFraction valueA;
     private RationalFraction valueB;
@@ -16,12 +16,9 @@ public class QuadraticDataRationalFractionRepresentation {
     private RationalFraction root1;
     private RationalFraction root2;
 
-    private QuadraticDataMerged quadraticData;
+    private QuadraticEquationData quadraticData;
 
-//    public QuadraticDataRationalFractionRepresentation(QuadraticData quadraticData){
-//    }
-
-    public void setQuadraticDataEntity(QuadraticDataMerged quadraticDataEntity){
+    public void setQuadraticDataEntity(QuadraticEquationData quadraticDataEntity){
         this.quadraticData = quadraticDataEntity;
         this.valueA = RationalConverter.convertToRational(quadraticData.getValueA());
         this.valueB = RationalConverter.convertToRational(quadraticData.getValueB());
@@ -55,7 +52,7 @@ public class QuadraticDataRationalFractionRepresentation {
         return root2;
     }
 
-    public QuadraticDataMerged getQuadraticData() {
+    public QuadraticEquationData getQuadraticData() {
         return quadraticData;
     }
 }

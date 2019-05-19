@@ -5,7 +5,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import quadratic.model.domain.PK;
-import quadratic.model.domain.QuadraticDataMerged;
+import quadratic.model.domain.QuadraticEquationData;
 
 @Repository
 public class QuadraticImplementationRepository implements QuadraticDAORepository {
@@ -14,16 +14,16 @@ public class QuadraticImplementationRepository implements QuadraticDAORepository
     private SessionFactory sessionFactory;
 
     @Override
-    public void addQuadraticData(QuadraticDataMerged quadraticData) {
+    public void addQuadraticData(QuadraticEquationData quadraticData) {
         sessionFactory.getCurrentSession().save(quadraticData);
     }
 
     @Override
-    public QuadraticDataMerged getQuadraticDataById(PK id) {
-        QuadraticDataMerged q;
+    public QuadraticEquationData getQuadraticDataById(PK id) {
+        QuadraticEquationData q;
 
         try {
-            q = (QuadraticDataMerged) sessionFactory.getCurrentSession().load(QuadraticDataMerged.class, id);
+            q = (QuadraticEquationData) sessionFactory.getCurrentSession().load(QuadraticEquationData.class, id);
         } catch (ObjectNotFoundException e ){
             return null;
         }

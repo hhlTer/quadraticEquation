@@ -1,6 +1,6 @@
-package quadratic.controller.controllerservice.calculating;
+package quadratic.utils.calculating;
 
-import quadratic.controller.representanion.RationalFraction;
+import quadratic.model.representanion.RationalFraction;
 
 import java.math.BigDecimal;
 import java.util.TreeMap;
@@ -11,7 +11,7 @@ import java.util.TreeMap;
  * included two methods:
  *
  * 1) RationalFraction convertToRational(double value)
- * calculate and return RationalFraction object, with three int values: whole numerator/denominator
+ * calculate and return RationalFraction object, with three int values: whole, numerator, denominator
  *
  * 2) double convertToDouble(RationalFraction rf)
  * calculate and return double value
@@ -24,11 +24,13 @@ public class RationalConverter {
     private static int staticDenominator, staticNumerator;
 
     public static RationalFraction convertToRational(double value){
+
         if (rationalFractionTreeMap.containsKey(value)){
             return rationalFractionTreeMap.get(value);
         }
 
         RationalFraction rationalValue = new RationalFraction();
+        rationalValue.setPositive(value >= 0);
         rationalValue.setWhole(separateWhole(value));
         initNumeratorAndDenominator(value);
         rationalValue.setDenominator(staticDenominator);
@@ -38,7 +40,15 @@ public class RationalConverter {
     }
 
     public static double convertToDouble(RationalFraction rationalValue){
-        return (double) rationalValue.getWhole() + (double) rationalValue.getNumerator()/rationalValue.getDenominator();
+        int whole = rationalValue.getWhole();
+        int numerator = rationalValue.getNumerator();
+        int denominator = rationalValue.getDenominator();
+
+        double result = whole;
+        double fl = (double) numerator/denominator;
+        result += fl;
+
+        return result * (rationalValue.isPositive() ? 1 : -1);
     }
 
     private static int separateWhole(double value) {
@@ -55,7 +65,6 @@ public class RationalConverter {
         BigDecimal bd = new BigDecimal("" + value);
         int numerator = 0;
         int denominator = 0;
-        double whole = (int)value;
         value = bd.subtract(new BigDecimal("" + (int)value)).doubleValue();
         final long MAX_VALUE_OF_DENOMINATOR = Integer.MAX_VALUE;
         double temp;

@@ -1,9 +1,11 @@
-package quadratic.model.repository;
+package quadratic.model.service;
+
 
 import quadratic.model.domain.PK;
 import quadratic.model.domain.QuadraticEquationData;
 
-public interface QuadraticDAORepository {
-    void addQuadraticData(QuadraticEquationData quadraticData);
+
+public interface QuadraticDatabaseService {
+    void save(QuadraticEquationData quadraticData);
     QuadraticEquationData getQuadraticDataById(PK id);
 }

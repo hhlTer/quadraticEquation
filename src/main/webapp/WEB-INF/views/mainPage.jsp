@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Quadratic Equation Calculate</title>
+    <title>Quadratic Equation Calculate!!!</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -32,7 +32,7 @@
 
         var myRequest = new XMLHttpRequest();
 
-        myRequest.open('GET', '/quadraticEquation_war/calculate?'+body, true);
+        myRequest.open('GET', '/quadraticEquation_war_exploded/calculate?'+body, true);
 
         myRequest.onreadystatechange = function (ev) {
             console.log("onreadystate");
@@ -53,7 +53,7 @@
 
 <div class="w3-container" align="center">
 
-<form id="formsubmit" action="/quadraticEquation_war/calculate" method="post" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin w3-center" style="width: 25%">
+<form id="formsubmit" action="/quadraticEquation_war_exploded/calculate" method="post" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin w3-center" style="width: 25%">
     <p>
         <label>Enter A</label>
         <input class="w3-input" name="valueA" id="valueA" type="text" required pattern="([0-9]+\.[0-9]+)|[1-9]|^[0-9][0-9]+|([-][0-9]+\.[0-9]+)|[-][0-9]+|[0-9]+|([0-9]+\.[0-9]+)" title="This field must contain only digits that are separated by a dot (For example: 5.2; 2; 0.33) and not contains zero 0"></p>

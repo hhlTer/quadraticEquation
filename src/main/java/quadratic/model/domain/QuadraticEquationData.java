@@ -9,7 +9,7 @@ import java.io.Serializable;
 @Table(name = "quadratic_data_merged")
 @IdClass(PK.class)
 @Proxy(lazy = false)
-public class QuadraticDataMerged implements Serializable {
+public class QuadraticEquationData implements Serializable {
 
     @Id
     private double valueA;

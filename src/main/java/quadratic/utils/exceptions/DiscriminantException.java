@@ -1,4 +1,4 @@
-package quadratic.controller.controllerservice.exceptions;
+package quadratic.utils.exceptions;
 
 public class DiscriminantException extends Exception {
 

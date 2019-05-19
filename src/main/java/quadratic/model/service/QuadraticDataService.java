@@ -1,4 +1,4 @@
-package quadratic.service.implementation;
+package quadratic.model.service;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,9 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import quadratic.model.repository.QuadraticDAORepository;
 import quadratic.model.domain.PK;
-import quadratic.model.domain.QuadraticDataMerged;
-
-import java.util.List;
+import quadratic.model.domain.QuadraticEquationData;
 
 @Service
 public class QuadraticDataService implements QuadraticDatabaseService {
@@ -18,12 +16,12 @@ public class QuadraticDataService implements QuadraticDatabaseService {
 
 
     @Transactional
-    public void addQuadraticData(QuadraticDataMerged quadraticData) {
+    public void save(QuadraticEquationData quadraticData) {
         quadraticDAORepository.addQuadraticData(quadraticData);
     }
 
     @Transactional
-    public QuadraticDataMerged getQuadraticDataById(PK id) {
+    public QuadraticEquationData getQuadraticDataById(PK id) {
         return quadraticDAORepository.getQuadraticDataById(id);
     }
 }
