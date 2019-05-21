@@ -16,7 +16,7 @@ import quadratic.model.domain.QuadraticEquationData;
 import quadratic.model.representanion.RationalRepresentation;
 import quadratic.model.service.QuadraticDatabaseService;
 
-@Controller()
+@Controller
 public class QuadraticDataController {
 
     @Autowired

@@ -1,6 +1,6 @@
 package quadratic.utils.calculating;
 
-import quadratic.model.representanion.RationalFraction;
+import quadratic.model.representanion.RationalRepresentation;
 
 import java.math.BigDecimal;
 import java.util.TreeMap;
@@ -17,19 +17,19 @@ import java.util.TreeMap;
  * calculate and return double value
  */
 
-public class RationalConverter {
+public class RationalConverter{
 
-    private static TreeMap<Double, RationalFraction> rationalFractionTreeMap = new TreeMap<>();
+    private static TreeMap<Double, RationalRepresentation.RationalFraction> rationalFractionTreeMap = new TreeMap<>();
 
     private static int staticDenominator, staticNumerator;
 
-    public static RationalFraction convertToRational(double value){
+    public static RationalRepresentation.RationalFraction convertToRational(double value){
 
         if (rationalFractionTreeMap.containsKey(value)){
             return rationalFractionTreeMap.get(value);
         }
 
-        RationalFraction rationalValue = new RationalFraction();
+        RationalRepresentation.RationalFraction rationalValue = new RationalRepresentation.RationalFraction();
         rationalValue.setPositive(value >= 0);
         rationalValue.setWhole(separateWhole(value));
         initNumeratorAndDenominator(value);
@@ -39,7 +39,7 @@ public class RationalConverter {
         return rationalValue;
     }
 
-    public static double convertToDouble(RationalFraction rationalValue){
+    public static double convertToDouble(RationalRepresentation.RationalFraction rationalValue){
         int whole = rationalValue.getWhole();
         int numerator = rationalValue.getNumerator();
         int denominator = rationalValue.getDenominator();

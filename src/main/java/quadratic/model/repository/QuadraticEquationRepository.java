@@ -8,7 +8,7 @@ import quadratic.model.domain.PK;
 import quadratic.model.domain.QuadraticEquationData;
 
 @Repository
-public class QuadraticImplementationRepository implements QuadraticDAORepository {
+public class QuadraticEquationRepository implements QuadraticDAORepository {
 
     @Autowired
     private SessionFactory sessionFactory;
