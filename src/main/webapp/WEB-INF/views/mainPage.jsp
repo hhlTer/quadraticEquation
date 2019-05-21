@@ -37,7 +37,14 @@
         myRequest.onreadystatechange = function (ev) {
             console.log("onreadystate");
             if (myRequest.readyState === 4){
-                alert(myRequest.responseText);
+                var result = JSON.parse(myRequest.response.valueOf());
+                var validationResult = result.validationResult;
+
+                if (validationResult != "OK"){
+                    alert(validationResult.toString());
+                }
+
+
             }
             document.getElementById('submitButton').disabled = false;
 

@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
+import quadratic.model.template.QuadraticEquationResponceTemplate;
 import quadratic.utils.calculating.CalculateQuadraticEquation;
 import quadratic.utils.exceptions.DiscriminantException;
 import quadratic.utils.validation.InputDataValidation;
@@ -35,7 +36,7 @@ public class QuadraticDataController {
 
     @RequestMapping(value = "/calculate", method = RequestMethod.GET)
     @ResponseBody
-    public String getValuesAndSaveIntoDatabase(
+    public QuadraticEquationResponceTemplate getValuesAndSaveIntoDatabase(
             @RequestParam String valueA,
             @RequestParam String valueB,
             @RequestParam String valueC
@@ -43,7 +44,7 @@ public class QuadraticDataController {
 
         ValidationResult validationResult = inputDataValidation.validateValues(valueA, valueB, valueC);
         if (validationResult != ValidationResult.OK){
-            return validationResult.toString();
+            return responseFormat(validationResult);
         }
 
         double doubleValueA = Double.valueOf(valueA);
@@ -60,15 +61,23 @@ public class QuadraticDataController {
                 qe = calculateQuadraticEquation.calculateEquation(doubleValueA, doubleValueB, doubleValueC); //calculate quadratic equation
                 quadraticDatabaseService.save(qe);//save cortege
             } catch (DiscriminantException e) {
-                return ValidationResult.NEGATIVE_DISCRIMINANT.toString();
+                return responseFormat(ValidationResult.NEGATIVE_DISCRIMINANT);
             }
         }
-        if (qe.getDiscriminant() < 0){
-            return ValidationResult.NEGATIVE_DISCRIMINANT.toString();
-        }
+//        if (qe.getDiscriminant() < 0){
+//            return ValidationResult.NEGATIVE_DISCRIMINANT.toString();
+//        }
 
-        //converting simple fraction to rational fraction
-        return generateAnswer(qe);
+        QuadraticEquationResponceTemplate qTemplate = new QuadraticEquationResponceTemplate();
+        qTemplate.setValidationResult(ValidationResult.OK);
+        qTemplate.setEquationData(qe);
+        return qTemplate;
+    }
+
+    private QuadraticEquationResponceTemplate responseFormat(ValidationResult initValidationResult) {
+        QuadraticEquationResponceTemplate result = new QuadraticEquationResponceTemplate();
+        result.setValidationResult(initValidationResult);
+        return result;
     }
 
     private String generateAnswer(QuadraticEquationData qe) {
