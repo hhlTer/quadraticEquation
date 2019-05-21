@@ -7,7 +7,7 @@ package quadratic.utils.calculating;
 //import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.Before;
 import org.junit.Test;
-import quadratic.model.representanion.RationalFraction;
+import quadratic.model.representanion.RationalRepresentation;
 
 import static org.hamcrest.Matchers.samePropertyValuesAs;
 import static org.junit.Assert.*;
@@ -24,26 +24,26 @@ public class RationalConverterTest {
 //                .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
 //    }
 
-    private RationalFraction rationalFraction;
+    private RationalRepresentation.RationalFraction expectedRationalFraction;
     private final double TESTED_VALUE = -0.6;
 
     @Before
     public void doBefore(){
-        rationalFraction = new RationalFraction();
-        rationalFraction.setWhole(0);
-        rationalFraction.setNumerator(-3);
-        rationalFraction.setDenominator(5);
+        expectedRationalFraction = new RationalRepresentation.RationalFraction();
+        expectedRationalFraction.setWhole(0);
+        expectedRationalFraction.setNumerator(-3);
+        expectedRationalFraction.setDenominator(5);
     }
 
     @Test
     public void convertToRational() {
-        RationalFraction tested = RationalConverter.convertToRational(TESTED_VALUE);
-        assertThat(rationalFraction, samePropertyValuesAs(tested));
+        RationalRepresentation.RationalFraction tested = RationalConverter.convertToRational(TESTED_VALUE);
+        assertThat(expectedRationalFraction, samePropertyValuesAs(tested));
     }
 
     @Test
     public void convertToDouble() {
-        double expected = RationalConverter.convertToDouble(rationalFraction);
+        double expected = RationalConverter.convertToDouble(expectedRationalFraction);
         assertEquals(expected, TESTED_VALUE, 0.0000001);
     }
 }

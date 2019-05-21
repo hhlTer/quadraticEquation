@@ -4,24 +4,24 @@ package quadratic.model.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import quadratic.model.repository.QuadraticDAORepository;
 import quadratic.model.domain.PK;
 import quadratic.model.domain.QuadraticEquationData;
+import quadratic.model.repository.QuadraticEquationRepository;
 
 @Service
-public class QuadraticDataService implements QuadraticDatabaseService {
+public class QuadraticEquationService implements QuadraticDatabaseService {
 
     @Autowired
-    private QuadraticDAORepository quadraticDAORepository;
+    private QuadraticEquationRepository quadraticEquationRepository;
 
 
     @Transactional
     public void save(QuadraticEquationData quadraticData) {
-        quadraticDAORepository.addQuadraticData(quadraticData);
+        quadraticEquationRepository.addQuadraticData(quadraticData);
     }
 
     @Transactional
     public QuadraticEquationData getQuadraticDataById(PK id) {
-        return quadraticDAORepository.getQuadraticDataById(id);
+        return quadraticEquationRepository.getQuadraticDataById(id);
     }
 }

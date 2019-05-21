@@ -14,16 +14,16 @@ import static org.junit.Assert.*;
 public class InputDataValidationTest {
 
     private String valueA, valueB, valueC;
-    private ValidationResult validationResult;
+    private ValidationResult expected;
 
     public InputDataValidationTest(String initValueA,
                                    String initValueB,
                                    String initValueC,
-                                   ValidationResult initValidationResult) {
+                                   ValidationResult initExpected) {
         valueA = initValueA;
         valueB = initValueB;
         valueC = initValueC;
-        validationResult = initValidationResult;
+        expected = initExpected;
     }
 
     @Parameterized.Parameters
@@ -55,6 +55,6 @@ public class InputDataValidationTest {
     public void testValidation(){
 
         ValidationResult testResult = dataValidation.validateValues(valueA, valueB, valueC);
-        assertEquals(validationResult, testResult);
+        assertEquals(expected, testResult);
     }
 }

@@ -52,17 +52,17 @@ public class CalculateQuadraticEquationTest {
 
     @Test
     public void calculateEquationTest() throws DiscriminantException {
-        QuadraticEquationData qed = new QuadraticEquationData();
-        qed.setValueA(A);
-        qed.setValueB(B);
-        qed.setValueC(C);
-        qed.setDiscriminant(discriminant);
-        qed.setRoot1(root1);
-        qed.setRoot2(root2);
+        QuadraticEquationData expexted = new QuadraticEquationData();
+        expexted.setValueA(A);
+        expexted.setValueB(B);
+        expexted.setValueC(C);
+        expexted.setDiscriminant(discriminant);
+        expexted.setRoot1(root1);
+        expexted.setRoot2(root2);
 
-        QuadraticEquationData qdmResult = quadraticEquation.calculateEquation(A, B, C);
+        QuadraticEquationData tested = quadraticEquation.calculateEquation(A, B, C);
 
-        assertThat(qed, samePropertyValuesAs(qdmResult));
+        assertThat(expexted, samePropertyValuesAs(tested));
     }
 
     @Rule
