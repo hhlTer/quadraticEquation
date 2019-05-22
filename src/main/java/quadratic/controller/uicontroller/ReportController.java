@@ -2,7 +2,7 @@ package quadratic.controller.uicontroller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import quadratic.controller.template.QuadraticEquationResponseTemplate;
+import quadratic.model.representanion.QuadraticEquationResponseTemplate;
 import quadratic.model.representanion.RationalRepresentation;
 
 @Controller

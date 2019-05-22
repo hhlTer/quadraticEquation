@@ -1,4 +1,4 @@
-package quadratic.controller.template;
+package quadratic.model.representanion;
 
 import quadratic.model.domain.QuadraticEquationData;
 import quadratic.utils.validation.ValidationResult;

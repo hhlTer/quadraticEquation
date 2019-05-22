@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import quadratic.controller.template.QuadraticEquationResponseTemplate;
+import quadratic.model.representanion.QuadraticEquationResponseTemplate;
 import quadratic.utils.calculating.CalculateQuadraticEquation;
 import quadratic.utils.exceptions.DiscriminantException;
 import quadratic.utils.validation.InputDataValidation;
