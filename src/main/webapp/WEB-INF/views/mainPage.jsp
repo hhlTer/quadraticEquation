@@ -25,24 +25,50 @@
         var valA = document.getElementById("valueA").value;
         var valB = document.getElementById("valueB").value;
         var valC = document.getElementById("valueC").value;
+        var rat = document.getElementById("rationalCheckbox");
+        var rational = "off";
+        if (rat.checked){
+            rational = "on";
+        } else {
+            rational = "off";
+        }
 
         var body = 'valueA=' + valA +
                 '&valueB=' + valB +
-                '&valueC=' + valC;
+                '&valueC=' + valC+
+                '&isRational=' + rational;
 
         var myRequest = new XMLHttpRequest();
+        myRequest.open('GET', '/quadraticEquation_war_exploded/calculate?'+ body, true);
+        myRequest.setRequestHeader("Accept", "application/json");
 
-        myRequest.open('GET', '/quadraticEquation_war_exploded/calculate?'+body, true);
-
-        myRequest.onreadystatechange = function (ev) {
+        myRequest.onreadystatechange = function () {
             console.log("onreadystate");
             if (myRequest.readyState === 4){
-                alert(myRequest.responseText);
+                console.log(myRequest.response.valueOf());
+                var result = JSON.parse(myRequest.response.valueOf());
+                console.log(result);
+                var validationResult = result.validationResult;
+                console.log(validationResult);
+
+                if (validationResult != "OK"){
+                    alert(result.defaultMessage);
+                } else {
+                    var requestToReport = new XMLHttpRequest();
+
+                    requestToReport.open('POST', '/quadraticEquation_war_exploded/reportFormat');
+                    requestToReport.setRequestHeader("Content-type", "application/json");
+                    requestToReport.onreadystatechange = function () {
+                        if (requestToReport.readyState === 4){
+                            alert(requestToReport.responseText);
+                        }
+                    };
+                    var jbody = JSON.stringify(result);
+                    requestToReport.send(jbody);
+                }
             }
             document.getElementById('submitButton').disabled = false;
-
         };
-
         myRequest.send(body);
     }
 </script>
@@ -57,13 +83,17 @@
     <p>
         <label>Enter A</label>
         <input class="w3-input" name="valueA" id="valueA" type="text" required pattern="([0-9]+\.[0-9]+)|[1-9]|^[0-9][0-9]+|([-][0-9]+\.[0-9]+)|[-][0-9]+|[0-9]+|([0-9]+\.[0-9]+)" title="This field must contain only digits that are separated by a dot (For example: 5.2; 2; 0.33) and not contains zero 0"></p>
-        <%--<input class="w3-input" name="variableA" type="text" required pattern="([0-9]+\.[0-9]+)|[1-9]|^[0-9][0-9]+" title="This field must contain only digits that are separated by a dot (For example: 5.2; 2; 0.33) and not contains zero 0"></p>--%>
     <p>
         <label>Enter B</label>
         <input class="w3-input" name="valueB" id="valueB" type="text" required pattern="([-][0-9]+\.[0-9]+)|[-][0-9]+|[0-9]+|([0-9]+\.[0-9]+)" title="The field must contain only digits that are separated by a dot (For example: 5.2; 2; 0.33)"></p>
     <p>
         <label>Enter C</label>
-        <input class="w3-input" name="valueC" id="valueC" type="text" required pattern="([-][0-9]+\.[0-9]+)|[-][0-9]+|[0-9]+|([0-9]+\.[0-9]+)" title="The field must contain only digits that are separated by a dot (For example: 5.2; 2; 0.33)"></p>
+        <input class="w3-input" name="valueC" id="valueC" type="text" required pattern="([-][0-9]+\.[0-9]+)|[-][0-9]+|[0-9]+|([0-9]+\.[0-9]+)" title="The field must contain only digits that are separated by a dot (For example: 5.2; 2; 0.33)">
+    </p>
+    <p>
+        <input class="w3-check" type="checkbox" id="rationalCheckbox" name="isRational"/>
+        <label>Convert to rational (may need several more times to calculate (5-10 sec)</label>
+    </p>
     <p>
         <input class="w3-button" type="button" id="submitButton" onclick="loadResult()" value="Submit query"/>
     </p>
